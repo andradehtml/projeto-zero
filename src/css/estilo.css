@@ -1,0 +1,514 @@
+body{
+    font-family: ´Poppins´, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background:  url(./background-cartao/day-backgroung.jpg);
+    background-size: cover; 
+}
+
+body.modo-escuro{
+    background:  url(./background-cartao/wood-night-back.png);
+    background-origin: padding-box;
+    background-size: cover
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+
+
+header .logo , 
+header .imagem-botao{
+    width: 40px;
+    transition: 1.5s ease-in-out;
+}
+
+
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+main{
+    padding: 25px;
+
+}
+
+.listagem-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+main .cartao-pokemon-psi{
+background-image: url(./background-cartao/espiral-background.gif);
+width: 200px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+border-radius: 20px;
+transition: 2s ease-in-out;}
+
+ .cartao-pokemon-psi:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+
+
+
+.cartao-pokemon-agua{
+    background-image: url(./background-cartao/water-background.gif);
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 20px;}
+
+    .cartao-pokemon-agua:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+    
+    
+
+    .cartao-pokemon-fire{
+        background-image: url(./background-cartao/fire2-backgh.gif);
+        width: 200px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        border-radius: 20px;}
+
+        .cartao-pokemon-fire:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+        
+       
+
+        .cartao-pokemon-grama{
+            background-image: url(./background-cartao/grama-backgrund.gif);
+            width: 200px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            border-radius: 20px;}
+
+            .cartao-pokemon-grama:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+            
+           
+            .cartao-pokemon-ghost{
+                background-image: url(./background-cartao/ghost-gif-background.gif);
+                width: 200px;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                border-radius: 20px;}
+
+                .cartao-pokemon-ghost:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+                
+                
+
+                .cartao-pokemon-snow{
+                    background-image: url(./background-cartao/snow-background.gif);
+                    width: 200px;
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 40px;
+                    border-radius: 20px;}
+
+                    .cartao-pokemon-snow:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+                    
+                    
+                    .cartao-pokemon-electra{
+                        background-image: url(./background-cartao/electra-background.gif);
+                        width: 200px;
+                        padding: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 40px;
+                        border-radius: 20px;}
+
+                        .cartao-pokemon-electra:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+                        
+                        
+
+
+                        .cartao-pokemon-pasture{
+                            background-image: url(./background-cartao/pasture2-background.gif);
+                            width: 200px;
+                            padding: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 40px;
+                            border-radius: 20px;}
+
+                            .cartao-pokemon-pasture:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+
+
+
+
+                            .cartao-pokemon-grama-terra{
+                                background-image: url(./background-cartao/grama-backgrund.gif);
+                                width: 200px;
+                                padding: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                gap: 40px;
+                                border-radius: 20px;}
+
+                                .cartao-pokemon-grama-terra:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+                                
+                                
+                                .modo-escuro .cartao-pokemon-psi{
+                                    background-image: url(./background-cartao/mouse-alakazam-background.gif);
+                                }
+
+                            .modo-escuro .cartao-pokemon-psi{
+                                background-image: url(./background-cartao/mouse-alakazam-background.gif);
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-agua{
+                                background-image: url(./background-cartao/mouse-agua2.gif);
+                                background-size: cover;
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-ghost{
+                                background-image: url(./background-cartao/mouse-ghost2.gif);
+                                background-size: cover
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-grama{
+                                background-image: url(./background-cartao/mouse-grama.gif);
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-fire{
+                                background-image: url(./background-cartao/mouse-fire.gif);
+                                background-size: cover
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-snow{
+                                background-image: url(./background-cartao/mouse-snow.gif);
+                                background-size: cover
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-normal{
+                                background-image: url(./background-cartao/mouse-pasture.gif);
+                                background-size: cover
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-electra{
+                                background-image: url(./background-cartao/mouse-electra.gif);
+                            }
+
+
+                            .modo-escuro .cartao-pokemon-grama-terra{
+                                background-image: url(./background-cartao/mouse-terra.gif);
+                                background-size: cover
+                            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                            main .cartao-pokemon-electra .informacoes span{
+                                background-color: rgb(199, 186, 5);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+
+                            main .cartao-pokemon-psi .informacoes span{
+                                background-color: rgb(212, 156, 205);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+
+                            main .cartao-pokemon-ghost .informacoes span{
+                                background-color: rgb(200, 140, 248);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+                            main .cartao-pokemon-grama .informacoes span{
+                                background-color: rgb(91, 243, 167);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+                            main .cartao-pokemon-agua .informacoes span{
+                                background-color: rgb(95, 238, 248);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+                            main .cartao-pokemon-fire .informacoes span{
+                                background-color: rgb(250, 106, 106);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+
+                            main .cartao-pokemon-snow .informacoes span{
+                                background-color: rgb(121, 143, 146);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+                            main .cartao-pokemon-pasture .informacoes span{
+                                background-color: rgb(216, 207, 185);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+                            main .cartao-pokemon-grama-terra .informacoes span{
+                                background-color: rgb(66, 199, 13);
+                                padding: 5px;
+                                display: flex;
+                                flex-wrap: wrap-reverse;
+                                border-radius: 30px;
+                                
+                            }
+
+
+
+
+
+
+
+
+
+
+
+                            .grama{
+                                background-color: #7ac74c;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+                            .psiquico{
+                                background-color: #e034a7;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .agua{
+                                background-color: #06aecc;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .gelo{
+                                background-color: #acadab;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .venenoso{
+                                background-color: #ff44d0;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .fantasma{
+                                background-color: #df69c1;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .eletrico{
+                                background-color: #a4cf2f;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .normal{
+                                background-color: #db710e;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            .fogo{
+                                background-color: #f83123;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+                            .terra{
+                                background-color: #7e3c05;
+                                border-radius: 15px;
+                                margin: 10px;
+                                padding: 5px;
+                            }
+
+
+                            main .cartao-pokemon-agua .gif{
+                                width: 65px;
+                                height: 65px;}
+
+                                main .cartao-pokemon-electra .gif{
+                                    width: 75px;
+                                    height: 75px;
+                                }
+
+                                    main .cartao-pokemon-ghost .gif{
+                                        width: 65px;
+                                        height: 65px;}
+
+                                        main .cartao-pokemon-psi .gif{
+                                            width: 90px;
+                                            height: 90px;
+                                        }
+
+                                            main .cartao-pokemon-grama .gif{
+                                                width: 65px;
+                                                height: 65px;}
+
+                                                    main .cartao-pokemon-pasture .gif{
+                                                        width: 80px;
+                                                        height: 80px;
+                                                    }
+
+                                                        main .cartao-pokemon-snow .gif{
+                                                            width: 70px;
+                                                            height: 70px;}
+
+                                                            main .cartao-pokemon-ghost .gif{
+                                                                width: 90px;
+                                                                height: 90px;
+                                                            }
+
+                                                            main .cartao-pokemon-fire .gif{
+                                                                width: 70px;
+                                                                height: 70px;}
